@@ -10,7 +10,7 @@ A dual-layer data pipeline that processes and tracks e-commerce events from the 
 └───────────────────┬─────────────────────────────────────────┘
                     │
         ┌───────────┴───────────┐
-             ▼                                      ▼
+        ▼                       ▼
 ┌──────────────────┐   ┌─────────────────────┐
 │   BATCH LAYER    │   │    STREAM LAYER      │
 │                  │   │                      │
@@ -21,7 +21,7 @@ A dual-layer data pipeline that processes and tracks e-commerce events from the 
 └────────┬─────────┘   └──────────┬───────────┘
          │                        │
          └───────────┬────────────┘
-                                   ▼
+                     ▼
          ┌───────────────────────┐
          │       MongoDB         │
          │   3-node Replica Set  │
@@ -29,7 +29,7 @@ A dual-layer data pipeline that processes and tracks e-commerce events from the 
          │   488,254 events      │
          └───────────┬───────────┘
                      │
-                                   ▼
+                     ▼
          ┌───────────────────────┐
          │      PostgreSQL       │
          │   (Analytical Store)  │
@@ -38,7 +38,7 @@ A dual-layer data pipeline that processes and tracks e-commerce events from the 
          │   fct_order_items     │
          └───────────┬───────────┘
                      │
-                                   ▼
+                     ▼
          ┌───────────────────────┐
          │    Apache Superset    │
          │   Interactive Dashboard│
