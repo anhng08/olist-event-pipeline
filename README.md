@@ -97,3 +97,7 @@ A dual-layer data pipeline that processes and tracks e-commerce events from the 
 - **Total Orders**: 99,441
 - **Top Category**: beleza_saude (beauty & health)
 - **Peak Week**: Black Friday 2017 (~3,000 orders)
+
+## Dashboard Preview
+
+![Dashboard](docs/dashboard.png)
