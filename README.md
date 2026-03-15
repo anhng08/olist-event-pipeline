@@ -100,4 +100,4 @@ A dual-layer data pipeline that processes and tracks e-commerce events from the 
 
 ## Dashboard Preview
 
-![Dashboard](docs/dashboard.png)
+![Dashboard](docs/dashboard.jpg)
